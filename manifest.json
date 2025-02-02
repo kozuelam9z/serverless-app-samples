@@ -17,20 +17,7 @@
         }
       }
     },
-    "support_agent": {
-      "events": {
-        "onAgentCreate": {
-          "handler": "onAgentCreateHandler"
-        }
-      }
-    },
-    "support_company": {
-      "events": {
-        "onCompanyCreate": {
-          "handler": "onCompanyCreateCallback"
-        }
-      }
-    },
+    
     "support_ticket":{
       "events": {
         "onConversationCreate": {
@@ -38,13 +25,7 @@
         }
       }
     },
-    "service_ticket": {
-      "events": {
-        "onConversationCreate": {
-          "handler": "onConversationCreateCallback"
-        }
-      }
-    },
+   
     "chat_conversation": {
       "events": {
         "onConversationCreate": {

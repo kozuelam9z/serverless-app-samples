@@ -35,16 +35,6 @@ exports = {
     console.log("Logging arguments from the external event:" + JSON.stringify(args));
   },
 
-  //support_agent module event
-  onAgentCreateHandler: function (args) {
-    console.log('Hello ' + args['data']['agent']['name']);
-  },
-
-  //support_company module event
-  onCompanyCreateCallback: function (args) {
-    console.log("Logging arguments from onCompanyCreate event: " + JSON.stringify(args));
-  },
-
   //support_ticket, service_ticket, chat_conversation module event
   onConversationCreateCallback: function (args) {
     console.log("Logging arguments from onConversationCreate event: " + JSON.stringify(args));
